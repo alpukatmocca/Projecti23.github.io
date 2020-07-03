@@ -1,0 +1,114 @@
+/* Untuk Tablets */
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+
+  /* Main Tambahan */
+  .kotak1 {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .o {
+    width: 50%;
+  }
+
+  .informasi {
+    height: 100px;
+  }
+
+  .info {
+    text-align: center;
+    position: relative;
+  }
+
+  .left {
+    font-size: 20px;
+    top: 40px;
+    width: 100%;
+  }
+
+  .right  {
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+
+  .tabel1, .meninggal, .sembuh {
+    margin: 0;
+  }
+
+  .tabel1, .prov {
+    background-color: rgba(47, 41, 41, 0.3);
+  }
+
+  /*Footer*/
+  .footer-container {
+  max-width: 600px;
+}
+.right-col {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.left-col {
+  width: 100%;
+  text-align: center;
+}
+
+}
+
+
+/* Untuk Smartphones */
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+
+  /* Main Tambahan */
+  .kotak1 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .o {
+    width: 100%;
+  }
+
+  .lanjut a {
+    text-align: center;
+  }
+
+  .informasi {
+    height: 140px;
+  }
+
+  .info {
+    text-align: center;
+    position: relative;
+  }
+
+  .left {
+    font-size: 20px;
+  }
+
+  .right  {
+    font-size: 10px;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+  }
+
+  .tabel1, .konfirmasi, .meninggal, .sembuh {
+    margin: 0;
+  }
+
+  .tabel1, .prov {
+    background-color: rgba(47, 41, 41, 0.3);
+  }
+
+/*Footer*/
+.btn{
+  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+}
